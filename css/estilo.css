@@ -1,0 +1,28 @@
+body {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #5F8F11;
+    letter-spacing: 0.3em;
+}
+
+h1 span {
+    color: #BF823B;
+}
+
+h2 {
+    color: #70AF0A;
+    border-bottom: #CFDFB5 1px solid;
+}
+
+h3 { 
+    color: #BF823B;
+}
+
+ div {
+    border: #d3d3d3 1px solid;
+    margin: 20px;
+    padding-top: 20px; padding-right: 20px; padding-bottom: 30px; padding-left: 20px;
+}
