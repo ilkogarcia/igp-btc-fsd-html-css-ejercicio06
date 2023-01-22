@@ -1,3 +1,8 @@
+html {
+    width: 900px;
+    margin: auto;
+}
+
 body {
     font-family: 'Lucida Sans Unicode', sans-serif;
 }
@@ -21,8 +26,19 @@ h3 {
     color: #BF823B;
 }
 
- div {
+.contenedor {
+    display: flex;
+} 
+
+.menu {
+    float: left;
+    margin: 5px 10px 10px 5px;
+    padding: 10px 20px 30px 20px;
+}
+
+.contenido {
+    float: right;
+    margin: 5px 10px 10px 5px;
+    padding: 10px 20px 30px 20px;
     border: #d3d3d3 1px solid;
-    margin: 20px;
-    padding-top: 20px; padding-right: 20px; padding-bottom: 30px; padding-left: 20px;
 }
