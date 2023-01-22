@@ -26,19 +26,47 @@ h3 {
     color: #BF823B;
 }
 
-.contenedor {
+#contenedor {
     display: flex;
 } 
 
-.menu {
+#menu {
+    width: 150px;
+    margin: 20px;
     float: left;
-    margin: 5px 10px 10px 5px;
-    padding: 10px 20px 30px 20px;
 }
 
-.contenido {
+#menu li {
+    border: 1px solid #d3d3d3;
+    background-color: #cbe783;
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    list-style-type: none;
+}
+
+#menu li.opcionActiva {
+    border: 1px solid #b4b4b4;
+    background-color: #d3d3d3;
+    font-weight: bold;
+}
+
+#menu li:hover{
+    background-color: #e5cdb2;
+}
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    color: #4F4F4F;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#contenido {
     float: right;
     margin: 5px 10px 10px 5px;
     padding: 10px 20px 30px 20px;
-    border: #d3d3d3 1px solid;
+    border: 1px solid #d3d3d3;
 }
